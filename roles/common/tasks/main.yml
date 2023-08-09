@@ -1,0 +1,14 @@
+---
+
+- name: Instalando pacotes essenciais
+  apt: 
+    name: 
+       - vim
+       - curl
+       - telnet
+       - unzip
+       - wget
+       - net-tools
+       - htop
+       - nmap
+    state: present
